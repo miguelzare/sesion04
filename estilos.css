@@ -1,0 +1,231 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 100px;
+}
+
+.box1 {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    background-color:red;
+}
+
+.box2 {
+    grid-column-start: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color:yellow;
+}
+
+.box3 {
+    grid-column-start: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color:dodgerblue;
+}
+
+.box4 {
+    grid-column-start: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-color:lime;
+}
+
+.box5 {
+    grid-column-start: 3;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    background-color:darkviolet;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.cabecera {
+    display: flex;
+}
+
+.imagen-menu {
+    width: 10x;
+    height: 50px;
+    align-items: flex-end;
+}
+.empaque{
+    background: url(/img/fondo6.jpg);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    color: white;
+    font-style: italic;
+}
+.i1{
+    width: 300px;
+    height: 300px;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    border: 5px solid black;
+    border-image-width: 10px;
+    border-image-slice: 110;
+    border-image-outset: 0px;
+    border-image-repeat: repeat;
+}
+.i2{
+    width: 300px;
+    height: 300px;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    border: 5px solid black;
+    border-image-width: 10px;
+    border-image-slice: 110;
+    border-image-outset: 0px;
+    border-image-repeat: repeat;
+
+
+}
+.i3{
+    width: 300px;
+    height: 300px;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    border: 5px solid black;
+    border-image-width: 10px;
+    border-image-slice: 110;
+    border-image-outset: 0px;
+    border-image-repeat: repeat;
+}
+.i4{
+    width: 300px;
+    height: 300px;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    border: 5px solid black;
+    border-image-width: 10px;
+    border-image-slice: 110;
+    border-image-outset: 0px;
+    border-image-repeat: repeat;
+}
+.i5{
+    width: 300px;
+    height: 300px;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    border: 5px solid black;
+    border-image-width: 10px;
+    border-image-slice: 110;
+    border-image-outset: 0px;
+    border-image-repeat: repeat;
+}
+.i6{
+    width: 300px;
+    height: 300px;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    border: 5px solid black;
+    border-image-width: 10px;
+    border-image-slice: 110;
+    border-image-outset: 0px;
+    border-image-repeat: repeat;
+}
+.empaque2{
+    background: url(/img/fondo6.jpg);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    color: white;
+    font-style: italic;
+}
+.j1{
+    width: 300px;
+    height: 300px;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    border: 5px solid plum;
+    border-image-width: 10px;
+    border-image-slice: 110;
+    border-image-outset: 0px;
+    border-image-repeat: repeat;
+}
+.j2{
+    width: 300px;
+    height: 300px;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    border: 5px solid plum;
+    border-image-width: 10px;
+    border-image-slice: 110;
+    border-image-outset: 0px;
+    border-image-repeat: repeat;
+}
+.j3{
+    width: 300px;
+    height: 300px;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    border: 5px solid plum;
+    border-image-width: 10px;
+    border-image-slice: 110;
+    border-image-outset: 0px;
+    border-image-repeat: repeat;
+}
+.j4{
+    width: 300px;
+    height: 300px;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    border: 5px solid plum;
+    border-image-width: 10px;
+    border-image-slice: 110;
+    border-image-outset: 0px;
+    border-image-repeat: repeat;
+}
+.j5{
+    width: 300px;
+    height: 300px;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    border: 5px solid plum;
+    border-image-width: 10px;
+    border-image-slice: 110;
+    border-image-outset: 0px;
+    border-image-repeat: repeat;
+}
+.j6{
+    width: 300px;
+    height: 300px;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    border: 5px solid plum;
+    border-image-width: 10px;
+    border-image-slice: 110;
+    border-image-outset: 0px;
+    border-image-repeat: repeat;
+}
+
+    
+
+
